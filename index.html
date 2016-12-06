@@ -44,6 +44,38 @@
           </ol>
       </section>
 
+      <section>
+        <h3>Review this Recipe </h3>
+        <form action="/reviews" method ="post">
+          <label for="name">Name</label> <br>
+          <input id="name" type="text" name="review[name]">
+          <br>
+          <label for="rating">Rating</label> <br>
+            <input id = "rating" type="radio" name="review[rating]" value="5">5
+            <input id = "rating" type="radio" name="review[rating]" value="4">4
+            <input id = "rating" type="radio" name="review[rating]" value="3">3
+            <input id = "rating" type="radio" name="review[rating]" value="2">2
+            <input checked id = "rating" type="radio" name="review[rating]" value="1">1
+          <br>
+          <label for="expertise">Cooking Expertise</label> <br>
+            <select id="expertise" name="review[expertise]">
+              <option disabled selected> -- Please Select -- </option>
+              <option value="sometimes_cook"> Sometimes Cook </option>
+              <option value="cook_everyday"> Cook Everyday </option>
+              <option value="cooking_is_a_hobby"> Cooking is a Hobby </option>
+              <option value="professional_chef"> Professional Chef </option>
+            </select>
+          <br>
+          <label for="review">Review <br>
+            <textarea name="review[body]" cols="38" rows="8"></textarea>
+          </label>
+          <br>
+          <input type="submit" value="Submit Review">
+        </form>
+        <br>
+        <br>
+      </section>
+
       <footer>
         <p> Orgin of recipe: unknown </p>
       </footer>
