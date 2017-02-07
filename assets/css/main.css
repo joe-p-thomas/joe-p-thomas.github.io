@@ -2087,7 +2087,7 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 5px;
 				width: 100%;
 			}
 
@@ -2480,11 +2480,10 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("../../images/blue_tri.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-size: 100%
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2492,7 +2491,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 20%;
 	}
 
 		#header > * {
@@ -2570,10 +2569,10 @@
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 20%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		width: 70%;
 	}
 
 		#main > section {
@@ -2874,7 +2873,7 @@
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 20%;
 			}
 
 				#header h1 {
@@ -2898,10 +2897,10 @@
 		/* Main */
 
 			#main {
-				margin-left: 30%;
+				margin-left: 20%;
 				max-width: none;
 				padding: 6em 3em 3em 3em;
-				width: calc(100% - 30%);
+				width: 70%;
 			}
 
 	}
