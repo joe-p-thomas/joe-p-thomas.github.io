@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato';
+  list-style: none;
+  color: #555;
+}
+
+body {
+  background-image: url('images/blue-and-green-triangles.jpg');
+  background-attachment: fixed;
+}
+
+.main {
+  padding: 25px 0;
+  margin: auto;
+  width: 1000px;
+  background-color: #fff;
+  box-shadow: 0 0 100px #444;
+}
+
+h1, h2, h3 {
+font-family: 'Roboto Slab';
+font-weight: 400;
+}
+
+
+/* Header */
+.header {
+  text-align: center;
+  margin: 45px;
+}
+
+h1 {
+  font-size: 85px;
+  color:
+}
+
+.header a {
+  margin: 5px;
+}
+
+
+
+.section {
+  margin: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.body {
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.art {
+  width: 25%;
+  height: 25%;
+}
+
+/* About Me */
+.personal-pitch {
+  width: 50%;
+  margin: 25px;
+}
+
+/* Projects */
+.project {
+  width: 40%;
+  margin: 35px;
+}
+
+.project_thumbnail {
+  width: 100%;
+  box-shadow: 0 0 10px #ccc;
+}
+
+
+/* Contact */
+.contact-info {
+  padding-left: 45px;
+}
+
+.fa {
+  display: inline;
+  position: relative;
+  right: 30px;
+  top: 20px;
+}
