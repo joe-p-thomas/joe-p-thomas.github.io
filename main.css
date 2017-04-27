@@ -4,6 +4,7 @@
   font-family: 'Lato';
   list-style: none;
   color: #555;
+  cursor: default;
 }
 
 body {
@@ -38,6 +39,14 @@ h1 {
 
 .header a {
   margin: 5px;
+}
+
+.header i:hover {
+  color: #7ec8c9;
+}
+
+a:hover {
+  color: #7ec8c9;
 }
 
 
