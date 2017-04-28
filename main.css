@@ -90,6 +90,13 @@ h2 {
   box-shadow: 0 0 10px #ccc;
 }
 
+.name-tag {
+  transform: rotate(12deg);
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+}
+
 
 /* Contact */
 .contact-info {
@@ -101,4 +108,7 @@ h2 {
   position: relative;
   right: 30px;
   top: 20px;
+}
+.pigeon {
+  transform: rotate(10deg);
 }
