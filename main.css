@@ -16,7 +16,7 @@ body {
 .main {
   padding: 25px 0;
   margin: auto;
-  width: 1000px;
+  width: 850px;
   background-color: #fff;
   box-shadow: 0 0 100px #444;
 }
@@ -97,10 +97,15 @@ h2 {
   left: 10px;
 }
 
+p {
+  font-weight: 300;
+}
+
 
 /* Contact */
 .contact-info {
   padding-left: 45px;
+  font-weight: 300;
 }
 
 .fa {
